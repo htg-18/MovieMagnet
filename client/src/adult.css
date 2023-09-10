@@ -1,0 +1,32 @@
+.adultButton{
+    margin-top: 7px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    border: 0.7px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80%;
+    padding-left: 10px;
+    position: relative;
+    transition-delay: 0.1s;
+}
+.adultList{
+    position: absolute;
+    z-index: 1;
+    padding-left: 20px;
+}
+.listItem{
+    width: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.listItem:hover{
+    background-color: #efefef; /* Use rgba instead of rgb */
+  
+  }

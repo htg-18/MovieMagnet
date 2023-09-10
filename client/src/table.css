@@ -1,0 +1,36 @@
+.resultList{
+    display: none;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 2px;
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    z-index: 1;
+    margin-top: 45px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #D8D8D8;
+   
+}
+.resultItem{
+    /* border-radius: 10px; */
+    width: 200px;
+    padding: 10px 20px;
+    border-bottom: 0.2px solid black;
+    cursor: pointer;
+}
+.resultItem:hover{
+    background-color: #efefef; /* Use rgba instead of rgb */
+
+ }

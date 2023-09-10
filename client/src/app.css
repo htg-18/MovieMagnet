@@ -1,0 +1,252 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.appContainer{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+    width: 100vw;
+    background-image: url("./image\ \(2\).png");
+    background-size: cover;
+}
+.app {
+  height: 65%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  overflow-y: scroll;
+  background: rgba(0, 0, 0, 0.77);
+    align-items: center;
+  
+  padding-top: 30px;
+  scrollbar-width: thin;
+  scrollbar-color: #888888 #dddddd;
+  border-radius: 15px;
+}
+.app::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+.app::-webkit-scrollbar-track {
+  background: #dddddd; /* Track color */
+}
+
+.app::-webkit-scrollbar-thumb {
+  background-color: #888888; /* Thumb color */
+  border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+.hr{
+  border-style: dotted;
+  size: 1px;
+  color: white;
+}
+.lastdiv{
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.par{
+  font-size: 17px;
+  margin: 5px 0;
+}
+
+/* .lastData{
+  margin: 20px;
+} */
+.pdfLink{
+  color: white;
+  font-size: 20px;
+   margin-top: 28px;
+}
+.appWrapper{
+  max-height: 400px; /* Set a fixed height for the appWrapper */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+  margin-top: 20px;
+}
+.appWrapper1{
+  width: 150px;
+  max-height: 400px;
+  width: 50%;
+  
+}
+.filteredData{
+  max-width: 100%;
+}
+.back{
+  width:100%;
+  height: 40px;
+  background-color: #9BA4B5;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+.back:hover{
+  background-color: #F6635C;
+  color: white;
+}
+.listDiv{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+}
+.f{
+  font-size: 17px;
+  padding: 2px 0;
+}
+.dropbownButton{
+  background-color: white;
+  margin-top: 5px;
+  height: 40px;
+  border: 0.6px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  padding-left: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 80%;
+  margin-left: 30px;
+  padding-left: 10px;
+  position: relative;
+  transition-delay: 0.1s;
+}
+.search {
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 15px;
+  width:80%;
+  margin-right: 20px;
+  border: none;
+  outline: none;
+  height: 30px;
+  position: relative;
+  border-radius:10px;
+}
+.filteredData{
+  margin: auto;
+}
+.logo{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+.list {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.dropdownList{
+  display: none;
+  width: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-top: 2px;
+  max-height: 300px;
+  overflow-y: scroll;
+  margin-left: 50px;
+  position: absolute;
+  max-width: 150px;
+  z-index: 1;
+  margin-left: 150px;
+  padding-left: 15px;
+}
+.filteredData{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.filter{
+  color: white;
+  font-size: 17px;
+  margin-bottom: 3px;
+}
+.listItem {
+  margin-top: 3px;
+  width:50%;
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: #444;
+  font-weight: 300;
+  width: 200px;
+    padding: 10px 20px;
+    border-bottom: 0.2px solid black;
+    cursor: pointer;
+    background-color: white;
+}
+.listItem:hover{
+  background-color: #efefef; /* Use rgba instead of rgb */
+
+}
+.appWrapper1Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.appWrapper2{
+  width: 50%;
+ 
+}
+.appWrapper3{
+ 
+  width: 50%;
+}
+.appWrapper4{
+  width: 50%;
+}
+.appWrapper3Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.pdf{
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  display: flex;
+  border: 0.7px solid black;
+  align-items: center;
+  justify-content: center;
+}
+.pdf:hover{
+  background-color: #efefef;
+}
+.submit{
+  width:60%;
+  height: 50px;
+  background-color: #9BA4B5;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  /* margin-left: 140px; */
+  margin-top: 30px;
+  font-size: 18px;
+}
+.submit:hover{
+  background-color: #F6635C;
+  color: white;
+}

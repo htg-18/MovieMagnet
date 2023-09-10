@@ -1,0 +1,57 @@
+.yearButton{
+    margin-top: 7px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    border: 0.7px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80%;
+    padding-left: 10px;
+    position: relative;
+    transition-delay: 0.1s;
+}
+.yearList{
+    display: none;
+    width: 120px;
+    margin-left: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 2px;
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-left: 0;
+    position: absolute;
+    z-index: 1;
+    padding-left: 10px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #D8D8D8;
+   
+}
+.listItem{
+    /* border-radius: 10px; */
+    width: 120px;
+    /* padding: 10px 20px; */
+    border-bottom: 0.2px solid black;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    margin-left: 0 ;
+}
+.list:hover{
+    background-color: #efefef; /* Use rgba instead of rgb */
+
+ }
